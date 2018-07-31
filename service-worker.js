@@ -28,7 +28,7 @@ const PRECACHE_URLS = [
   'favicon.ico',
   '@fortawesome/fontawesome-free/js/all.js',
   'jquery/dist/jquery.js',
-  'popper.js/dist/popper.min.js',
+  'popper.js/dist/popper.js',
   'bootstrap/dist/js/bootstrap.js',
   'service-worker.js'
 ];
