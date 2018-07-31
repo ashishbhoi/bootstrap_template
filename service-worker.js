@@ -31,6 +31,7 @@ const PRECACHE_URLS = [
   'popper.js/dist/popper.js',
   'bootstrap/dist/js/bootstrap.js',
   'service-worker.js'
+
 ];
 
 // The install handler takes care of precaching the resources we always need.
