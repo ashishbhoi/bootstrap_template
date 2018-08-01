@@ -19,18 +19,7 @@ const RUNTIME = 'runtime';
 
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
-  '.',
-  'index.html',
-  'manifest.json',
-  'bootstrap/dist/css/bootstrap.css',
-  '@fortawesome/fontawesome-free/css/all.css',
-  'style.css',
-  'favicon.ico',
-  '@fortawesome/fontawesome-free/js/all.js',
-  'jquery/dist/jquery.js',
-  'popper.js/dist/popper.js',
-  'bootstrap/dist/js/bootstrap.js',
-  'service-worker.js'
+  '.'
 
 ];
 
