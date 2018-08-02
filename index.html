@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+<!-- Html with English Language -->
 
 <head>
   <!-- Required meta tags -->
@@ -10,12 +11,13 @@
   <meta name="author" content="Ashish Kumar Bhoi">
   <meta name="keywords" content="ashish bootstrap html5 css3 javascript">
   <meta name="description" content="A static web page to show all my github work">
+  <!-- manifest file to be added -->
   <link rel="manifest" href="manifest.json" />
-  <!-- Bootstrap CSS -->
+  <!-- Bootstrap Fontawesome and costom css files -->
   <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="@fortawesome/fontawesome-free/css/all.css">
   <link rel="stylesheet" href="style.css">
-  <!--Title And icon-->
+  <!--Title And icon -->
   <title>Titler</title>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -23,12 +25,13 @@
 
 <body>
   <!-- Optional JavaScript -->
-  <script defer src="@fortawesome/fontawesome-free/js/all.js"></script>
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- jQuery first, then Popper.js, then Bootstrap, then Fontawesome JS -->
   <script src="jquery/dist/jquery.js"></script>
   <script src="popper.js/dist/umd/popper.js"></script>
   <script src="bootstrap/dist/js/bootstrap.js"></script>
+  <script defer src="@fortawesome/fontawesome-free/js/all.js"></script>
 </body>
+<!-- Service worker JS Scripts -->
 <script src="service-worker.js"></script>
 <script>
   if ('serviceWorker' in navigator) {
